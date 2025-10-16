@@ -40,6 +40,23 @@
     
            }
 
+           .button{
+            font-family : "VT323", monospace;
+            font-size: 16x;
+            padding: 10px 20px;
+            border:none;
+            background-color: #BAD5AC;
+            box-shadow:0 5px #243330;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 10px;
+            animation: button 0.3s ease-in-out;
+           }
+
+              button:hover {
+                    background-color: #3BAEBE;
+                    transition:background-color 0.3s ease;
+              }
 
            @keyframes gradient{
             0% {
@@ -53,20 +70,12 @@
             }
         }
 
-        @-webkit-keyframes neonText{
+        @keyframes neonText{
             from {
-            text-shadow: 0 0 5px #E8E7A2
-            0 0 10px #E8E7A2,
-            0 0 20px #E8E7A2,
-            0 0 40px #5D9582,
-            0 0 80px #5D9582;
+            text-shadow: 0 0 5px #E8E7A2, 0 0 10px #E8E7A2,  0 0 20px #E8E7A2, 0 0 40px #5D9582, 0 0 80px #5D9582;
             }
             to {
-                text-shadow:0 0 15px #E8E7A2
-            0 0 20px #E8E7A2,
-            0 0 30px #5D9582,
-            0 0 50px #5D9582,
-            0 0 90px #5D9582;
+            text-shadow:0 0 15px #E8E7A2, 0 0 20px #E8E7A2,  0 0 30px #5D9582, 0 0 50px #5D9582,  0 0 90px #5D9582;
             }
         }
 
@@ -79,9 +88,12 @@
             <h1 class ='neonText'>Welcome to my Portfolio!</h1>
             </div>
         <nav>
-        <a style="text-decoration: none" href="./public/Unique_IceCream_Flavors.html"> First Graded Exercise </a>
+             <a href="./public/Unique_IceCream_Flavors.html" class="button"> First Graded Exercise </a>
+             <a href ="/public/Q21NGBerylliumLaurio.html" class="button">First Non-Graded</a>
 
+            </button>
         </nav>
+
         </header>
         <footer>
 
