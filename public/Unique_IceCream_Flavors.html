@@ -7,20 +7,53 @@
         <meta name = "keywords" content = "Portfolio">
         <meta name = "author" content="Fiona Savannah Laurio">
         <script scr="script.js" defer></script>
+       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
         <title>Unique Ice Cream Flavors</title>
-        <meta charset = utf-8>
+            <link rel="icon" type="image/x-icon" href="../assets/Icecream.jpg">
+    
             <style>
                 body {
-                font-family:"Gill Sans", sans-serif;
-                background-color: #ffffff;
-                margin: 40px;
+                    font-family: "Lora", serif;
+                    font-size: 18px;
+                    margin: 20px;
+                    font-weight: lighter;
+                  ;
                 }
-                table, th, td {
-                    border : 1px solid black;
-                    border-collapse: collapse;
-                    padding: 15px;
-                    text-align : left;
+                table{
+                width: 100%;
+                border-collapse: collapse;
+                font-size: 16px;
+                background-color: #f0f1cc;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+                }
+
+                th, td {
+                 padding: 12px;
+                 text-align: left;
+                 border: 1px solid #070707; 
+                 font-size: bold;
+               }
+
+              th {
+                 background-color: #b2b96a; 
+                 color: #4b2e2e;
+                 font-weight: bold;
+                   }
+
+                tr:hover {
+                    background-color: #959b59;
+                    transition:background-color 0.3s ease;
+                    }
+
+                img {
+                    width: 200px;
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                 }
             </style>
 
@@ -30,18 +63,18 @@
             <nav>
                 <a href = "../index.html">Home</a>
                 <a href = ""> History of Ice Cream</a>
-                <a href = "https://maviegale.github.io/CS3_2ndQtrPortfolio/public/2Q1GSBerylliumCruz.html"> Top 10 Popular Ice Cream Flavors</a>
+                <a href = ""> Top 10 Popular Ice Cream Flavors</a>
                 <a href = ""> How to make Ice Cream</a>
              </nav>
             <div>
-                 <h1>Unique Ice Cream Flavors From Around the Globe</h1>
+                 <h1 style ="text-align: center;">Unique Ice Cream Flavors From Around the Globe</h1>
             
                  <h4>Ice cream has been the go-to dessert to cool down ever since the Tang Dynasty! It is not unusual for people to begin putting their own spin to this timeless delight.
                 </h4>
              </div>
         </header>
        
-        <div style="width: auto; height: auto; background-color: rgb(215, 228, 233);">
+        <div>
         <table>
             <tr>
                 <th>Images</th>
@@ -51,96 +84,108 @@
             </tr>
 
             <tr>
-                <td><img src = "/assets/matcha-green-tea-ice-cream-6.jpg" height = 250 width = 300></td>
+                <td><img src = "/assets/matcha-green-tea-ice-cream-6.jpg"></td>
                 <td>Matcha Ice Cream 
                 <td>Japan</td>
                 <td>Over the years, Japan’s Matcha has grown a following for its bitter-yet-sweet flavor—making it the perfect fit for an ice cream flavor!</td>
 
             <tr>
-                <td><img src = "/assets/Wasabi-Ice-Cream.jpg" height = 250 width = 300></td>
+                <td><img src = "/assets/Wasabi-Ice-Cream.jpg"></td>
                 <td>Wasabi Ice Cream</td>
                 <td>Japan</td>
                 <td>Wasabi, hailing from Japan, with its spicy-tingly aftertaste would make its way of making itself an ice cream flavor!</td>
             </tr>
 
             <tr>
-                <td><img src="/assets/queso ice cream.jpg" height = 250 width = 300></td>
+                <td><img src="/assets/queso ice cream.jpg"></td>
                 <td>Queso Ice Cream</td>
                 <td>Philippines</td>
                 <td>Queso! This flavor made of cheddar cheese has become a staple in Filipino gatherings—equipped with a cheesy and nostalgic flavor.</td>
             </tr>
 
             <tr>
-                <td><img src="/assets/ube-ice-cream-in-a-bowl-with-toasted-coconut-on-top.jpg" height = 250 width = 300></td>
+                <td><img src="/assets/ube-ice-cream-in-a-bowl-with-toasted-coconut-on-top.jpg"></td>
                 <td>Ube Ice Cream</td> 
                 <td>Philippines</td>
                 <td>The Philippines has made its mark with ice cream enjoyers internationally with their Ube Ice Cream! Made with purple yam, it is the perfect balance between sweet and nutty.</td>
             </tr>
             
             <tr>
-                <td><img src="/assets/saffron.jpg" height = 250 width = 300></td>
+                <td><img src="/assets/saffron.jpg"></td>
                 <td>Persian Saffron Ice Cream</td>
                 <td>Iran</td>
                 <td>One of the most popular ice cream flavors in Iran. Also known as Bastani Sonnati ( Traditional Ice cream) or Bastani Sonnati Zaferani. Made from whole milk, heavy cream (khameh), egg yolks, sugar, rose water, saffron, vanilla, pistachios and salep.</td>
             </tr>
 
             <tr>
-                <td><img src="/assets/dried red pepper.jpg" height = 250 width = 375></td>
+                <td><img src="/assets/dried red pepper.jpg"></td>
                 <td>Dried Red Pepper Ice Cream</td>
                 <td>China</td>
                 <td>An unusual mix of sweet and spicy flavors, which originated in the city of Chongqing in China. Soft serve ice cream topped with chili oil makes for a spicy challenge you wouldn’t want to miss!</td>
             </tr>
 
             <tr>
-                <td><img src ="/assets/Rica-Rica-Ice-Cream.jpg" height = 250 width = 300></td>
+                <td><img src ="/assets/Rica-Rica-Ice-Cream.jpg"></td>
                 <td>Rica-rica Ice Cream</td>
                 <td>Chile</td>
                 <td>Originally from Chile, which mixes aromatic herbs called Rica rica which produces a mint-like flavor. </td>
             </tr>
 
             <tr>
-                <td><img src ="/assets/Black-Sesame-Ice-Cream.jpg" height = 250 width = 300></td>
+                <td><img src ="/assets/Black-Sesame-Ice-Cream.jpg"></td>
                 <td>Black Sesame Ice Cream</td>
                 <td>China</td>
                 <td>Black sesame ice cream, inspired by Japanese flavors, is crafted with roasted sesame seeds that bring out a deep, nutty and earthy flavor mixed into its creamy base.</td>
             </tr>
 
             <tr>
-                <td><img src ="/assets/mochi ice cream.jpg" height = 250 width = 300></td>
-                <td>Mochi Ice Cream></td>
+                <td><img src ="/assets/mochi ice cream.jpg"></td>
+                <td>Mochi Ice Cream</td>
                 <td>Japan</td>
                 <td>Japan’s unique Mochi has had people eager to replicate its texture and convert it to ice cream! With its many unique flavors and chewy texture, Mochi ice cream has also become popular with tourists in the country.</td>
             </tr>
 
             <tr>
-                <td><img src = "/assets/dondurma.jpg" height = 250 width = 300></td>
+                <td><img src = "/assets/dondurma.jpg"></td>
                 <td>Dondurma</td>
                 <td>Turkey</td>
                 <td>Turkey’s take on ice cream delight features a stretchy, chewy, and creamy experience. It is often eaten by a fork—not necessarily what you think of when you think “ice cream”!</td>
             </tr>
 
             <tr>
-                <td><img src = "/assets/kulfi.jpg" height = 250 width = 300></td>
+                <td><img src = "/assets/kulfi.jpg"></td>
                 <td>Kulfi</td>
                 <td>India</td>
                 <td>India’s Kulfi is not like your regular ice cream—it is fudgy, and served in the shape of a cone. It comes in many different flavors too! </td>
             </tr>
 
             <tr>
-                <td><img src = "/assets/gelato.jpg" height = 250 width = 300></td>
+                <td><img src = "/assets/gelato.jpg"></td>
                 <td>Gelato</td>
                 <td>Turkey</td>
                 <td>Gelato, a creamy delicacy from Italy, is made with more milk than cream, giving it a smooth and rich texture that melts gently on the tongue.</td>
             </tr>
 
             <tr>
-                <td><img src = "/assets/stir-fried.jpg" height = 250 width = 300></td>
+                <td><img src = "/assets/stir-fried.jpg"></td>
                 <td>Stir-fried Ice Cream</td>
                 <td>Thailand</td>
                 <td>Thailand’s unusual way of making ice cream has made it onto the feeds of many people—often featuring toppings such as berries, then put on top of thick liquid, which will then be rolled onto a freezing pan.</td>
             </tr>
-        
         </table>
         </div>
+        <div>
+            <p>Here's a video with more unique ice cream flavors from around the globe!</p>
+            <iframe width="420" height="315" src ="https://youtu.be/vKtLdTv-j10?si=TROofJesNXpg0O-7">
+            </iframe>
+        </div>
+
+        <footer style="text-align: center; margin-top: 20px;">
+            <p>References:</p>
+            <li><i>Interesting ice cream flavors from around the globe. (n.d.). </i>https://www.slyke.co/item?collectionId=194&itemIndex=3</a></li>
+            <li>Robicelli, A. (n.d.). <i>Ice cream around the world. Foodnetwork </i>https://www.tasteatlas.com/most-popular-ice-cream-flavors-in-the-world</a></li>
+    
+            <p> © 2025 Fiona Savannah Laurio, All Rights Reserved. </p>
+        </footer>
     </body>
 </html>
