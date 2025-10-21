@@ -46,7 +46,7 @@
 
         th, td {
          border: 1px solid #8b5e3c; 
-          padding: 12px 16px;
+          padding: 10px 12px;
          text-align: center;
          color: #3e2c23;
         }
@@ -70,6 +70,38 @@
 }
 
 
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+    }   
+
+    ul li a{
+        text-decoration: none;
+        color: #3e2c23;
+        padding: 16px 14px;
+        display: inline-block;
+    }
+
+    ul li a:hover {
+        background-color: #8b5e3c;
+        color: white;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+    }
+
+     @keyframes fadeUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
     img {
         width: 200px;
         height: auto;
@@ -83,11 +115,13 @@
     <body>
         <header>
             <nav>
-                <a href = "../index.html">Home</a>
-                <a href = "https://lalicanpshs.github.io/CS3_2NDQTRPORTFOLIO/public/2Q2GBerylliumLalican.html"> History of Ice Cream</a>
-                <a href = "https://maviegale.github.io/CS3_2ndQtrPortfolio/public/2Q1GSBerylliumCruz.html"> Top 10 Popular Ice Cream Flavors</a>
-                <a href = "https://leigh528.github.io/CS3_2NDQTRPORTFOLIO/"> How to make Ice Cream</a>
-             </nav>
+            <ul>
+                <li><a href = "../index.html">Home</a></li>
+                <li><a href = "https://lalicanpshs.github.io/CS3_2NDQTRPORTFOLIO/public/2Q2GBerylliumLalican.html"> History of Ice Cream</a></li>
+                <li><a href = "https://maviegale.github.io/CS3_2ndQtrPortfolio/public/2Q1GSBerylliumCruz.html"> Top 10 Popular Ice Cream Flavors</a></li>
+                <li><a href = "https://leigh528.github.io/CS3_2NDQTRPORTFOLIO/"> How to make Ice Cream</a></li>
+            </ul>
+            </nav>
             <div>
                  <h1 style ="text-align: center;">Unique Ice Cream Flavors From Around the Globe</h1>
             
